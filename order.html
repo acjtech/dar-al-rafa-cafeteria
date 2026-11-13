@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11151d" />
+    <meta name="description" content="Explore Dar Al Rafa Cafeteria favorites and order shawarma, paratha, rice and grill, or grilled sandwiches through WhatsApp." />
+    <title>Menu &amp; Order | Dar Al Rafa Cafeteria</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="topline">
+      <span class="topline-address">Ground Floor, Ambassador Building, Opposite Al Ghubaiba Bus Station, Al Ghubaiba Road (near Al Raffa Police Station), Meena Bazaar, Bur Dubai, Dubai, United Arab Emirates</span>
+      <span class="topline-phones"><a href="tel:+971555171699">+971 55 517 1699</a> · <a href="tel:+97143362350">+971 4 336 2350</a></span>
+    </div>
+    <header class="header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Dar Al Rafa Cafeteria home">
+          <span class="brand-mark" aria-hidden="true">ر</span>
+          <span class="brand-name">Dar Al Rafa<small>Cafeteria · Bur Dubai</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">☰</button>
+        <nav class="nav" id="site-navigation" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="order.html" aria-current="page">Menu &amp; Order</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-cta" href="https://wa.me/971555171699?text=Hello%20Dar%20Al%20Rafa%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">Order on WhatsApp <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero order-hero">
+        <div class="wrap">
+          <p class="eyebrow">Fresh favorites · Bur Dubai</p>
+          <h1>Find your next favorite.</h1>
+          <p>Choose a dish below to start your order on WhatsApp. We’ll confirm today’s price and availability with you.</p>
+          <div class="order-hero-actions">
+            <a class="button" href="#order-menu">Browse the favorites <span aria-hidden="true">↓</span></a>
+            <span class="order-open">Open daily · 6:00 AM – 2:00 AM</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-section" id="order-menu">
+        <div class="wrap">
+          <div class="order-heading">
+            <div>
+              <p class="eyebrow">A good place to start</p>
+              <h2 class="section-heading">Made for a quick bite or a proper break.</h2>
+            </div>
+            <p class="section-copy">These guest favorites are just a taste of the menu. Tap a dish to message the cafeteria; ask us for the full selection and current prices.</p>
+          </div>
+          <p class="order-selection" id="order-selection" role="status" hidden></p>
+          <div class="order-grid">
+            <article class="order-card" data-order-card data-item="Shawarma">
+              <div class="order-card-photo"><img src="assets/shawarma-wraps.png" alt="Fresh shawarma wraps served with a cool drink" loading="lazy" /><span class="food-number">01</span></div>
+              <div class="order-card-body">
+                <p class="order-card-tag">On the go</p>
+                <h3>Shawarma</h3>
+                <p>Wrapped warm and ready for the next stop on your day.</p>
+                <a class="button dark" href="https://wa.me/971555171699" data-order-item="Shawarma">Order shawarma <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="order-card" data-order-card data-item="Paratha &amp; fries">
+              <div class="order-card-photo"><img src="assets/paratha-meal.png" alt="Griddled paratha wraps served with fries and chai" loading="lazy" /><span class="food-number">02</span></div>
+              <div class="order-card-body">
+                <p class="order-card-tag">Comfort favorite</p>
+                <h3>Paratha &amp; fries</h3>
+                <p>Comforting, filling, and just right for a quick dine-in.</p>
+                <a class="button dark" href="https://wa.me/971555171699" data-order-item="Paratha &amp; fries">Order paratha <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="order-card" data-order-card data-item="Rice &amp; grill">
+              <div class="order-card-photo"><img src="assets/rice-and-grill-platter.png" alt="Rice served with a generous grilled meat platter" loading="lazy" /><span class="food-number">03</span></div>
+              <div class="order-card-body">
+                <p class="order-card-tag">A hearty plate</p>
+                <h3>Rice &amp; grill</h3>
+                <p>A hearty plate for when a snack just will not do.</p>
+                <a class="button dark" href="https://wa.me/971555171699" data-order-item="Rice &amp; grill">Order rice &amp; grill <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="order-card" data-order-card data-item="Grilled sandwiches">
+              <div class="order-card-photo"><img src="assets/grilled-sandwich.png" alt="Toasted grilled sandwich served with fries" loading="lazy" /><span class="food-number">04</span></div>
+              <div class="order-card-body">
+                <p class="order-card-tag">Toasty &amp; tasty</p>
+                <h3>Grilled sandwiches</h3>
+                <p>Toasty, melty favorites to enjoy here or on the go.</p>
+                <a class="button dark" href="https://wa.me/971555171699" data-order-item="Grilled sandwiches">Order a sandwich <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="order-note">
+            <span class="order-note-mark" aria-hidden="true">✦</span>
+            <div><strong>Need the complete menu or delivery?</strong><p>Message us on WhatsApp and we’ll help with the full menu, current prices, takeaway, and no-contact delivery.</p></div>
+            <a class="button" href="https://wa.me/971555171699?text=Hello%20Dar%20Al%20Rafa%2C%20could%20you%20please%20share%20the%20full%20menu%20and%20delivery%20options%3F" target="_blank" rel="noopener noreferrer">Ask us on WhatsApp <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="order-bottom-band">
+        <div class="wrap order-bottom-inner">
+          <div><p class="eyebrow">Just across from the station</p><h2>Pick up a bite on the way.</h2><p>We’re opposite Al Ghubaiba Bus and Metro Station, less than a minute’s walk away.</p></div>
+          <a class="button dark" href="contact.html">Plan your visit <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-main">
+          <div>
+            <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">ر</span><span class="brand-name">Dar Al Rafa<small>Cafeteria · Bur Dubai</small></span></a>
+            <p>Fresh shawarma, hot Safroni Chai and juices, just across from Al Ghubaiba Bus Station.</p>
+          </div>
+          <div>
+            <h3>Visit &amp; discover</h3>
+            <div class="footer-links">
+              <a href="index.html">Home</a>
+              <a href="order.html">Menu &amp; order</a>
+              <a href="contact.html">Contact us</a>
+              <a href="https://www.instagram.com/daralrafa/" target="_blank" rel="noopener noreferrer">Instagram · @daralrafa ↗</a>
+            </div>
+          </div>
+          <div>
+            <h3>Dar Al Rafa Cafeteria</h3>
+            <p class="footer-detail">Ground Floor, Ambassador Building, Opposite Al Ghubaiba Bus Station, Al Ghubaiba Road (near Al Raffa Police Station), Meena Bazaar, Bur Dubai, Dubai, United Arab Emirates.</p>
+            <p class="footer-detail"><a href="tel:+971555171699">+971 55 517 1699</a> · <a href="tel:+97143362350">+971 4 336 2350</a></p>
+            <p>Monday to Sunday, 6:00 AM – 2:00 AM</p>
+          </div>
+        </div>
+        <div class="footer-bottom"><span>© <span data-year>2026</span> Dar Al Rafa Cafeteria</span><span>Good food, right where you need it.</span></div>
+      </div>
+    </footer>
+    <a class="floating-order" href="https://wa.me/971555171699?text=Hello%20Dar%20Al%20Rafa%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer" aria-label="Order from Dar Al Rafa on WhatsApp">WhatsApp order <span aria-hidden="true">↗</span></a>
+  </body>
+</html>
